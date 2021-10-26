@@ -1,5 +1,5 @@
 const assert = require("assert");
-const helloWorld = require("./../testFolder/helloWorld");
+const helloWorld = require("../testFolder/helloWorld");
 
 describe("helloWorld()", function() {
   // Arrange

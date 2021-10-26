@@ -1,5 +1,5 @@
 const assert = require("assert");
-const palindrome = require("../palindrome.js");
+const palindrome = require("../testFolder/palindrome");
 
 describe("Palindrome test", function() {
   it("recognizes a non-palindrome", function() {
