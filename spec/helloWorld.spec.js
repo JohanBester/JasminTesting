@@ -1,13 +1,13 @@
 const assert = require("assert");
-const helloWorld = require("../testFolder/helloWorld");
+const helloWorld = require("../helloWorld");
 
 describe("helloWorld()", function() {
   // Arrange
-  let greeting = "Hello World";
+  let greeting = "Hello world";
   //Act
   let result = helloWorld();
   //Assert
-  it("it should return Hello World", function() {
+  it("it should return Hello world", function() {
     expect(result).toEqual(greeting);
   });
 });

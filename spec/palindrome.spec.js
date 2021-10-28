@@ -1,13 +1,20 @@
 const assert = require("assert");
-const palindrome = require("./palindrome");
+const palindrome = require("../palindrome");
 
 describe("Palindrome test", function() {
+  //Arrange
+  //let str = "hello";
+
+  //Act
+  //let result = palindrome(str);
+
+  //Asert
   it("recognizes a non-palindrome", function() {
     expect(palindrome("Hello")).toBe(false);
   });
 
   it("should be case-sensitive", function() {
-    assert.strictEqual(palindrome("Hello"), false);
+    assert.strictEqual(palindrome("Tot"), false);
   });
 
   it("knows that an empty string is a palindrome", function() {
